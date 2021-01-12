@@ -25,10 +25,6 @@
 }
 
 .nav__plus-notification {
-  background-color: tomato;
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
   position: absolute;
   right: -5px;
   top: -15px;
