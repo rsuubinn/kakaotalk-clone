@@ -1,0 +1,32 @@
+.more-screen .user-component__column i {
+  color: #2e362e;
+}
+
+.more-screen .icon-row {
+  margin-top: 35px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: flex-start;
+}
+
+.more-screen .icon-row__icon {
+  width: 25%;
+  margin-bottom: 30px;
+}
+
+.more-screen .user-component__subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-suggestions {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 40px;
+}
+
+.more-suggestions__title {
+  margin-bottom: 30px;
+  font-weight: 600;
+}
