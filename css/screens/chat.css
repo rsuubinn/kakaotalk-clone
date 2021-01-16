@@ -1,0 +1,26 @@
+#chat-screen {
+  background-color: #abc1d1;
+  height: 200vh;
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #abc1d1;
+}
+
+#chat-screen .status-bar {
+  z-index: 2;
+}
+
+#chat-screen .alt-header {
+  top: 15px;
+  z-index: 1;
+}
+
+.main-chat {
+  margin-top: 150px;
+}
