@@ -36,7 +36,42 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="data:image/png;base64,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"
+        />
+        <div class="message-row__content">
+          <span class="message__author">KakaoTalk</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >Please Check My Kakao Account Info</span
+            >
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Okay.</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message." />
+        <i class="far fa-smile fa-2x"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/5ff6d48e61.js"
